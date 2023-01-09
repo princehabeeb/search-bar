@@ -4,7 +4,7 @@ function SearchBar() {
   return (
     <div className='search'>
      <div className='searchInputs'></div>
-     <div className='dataResults'></div>
+     <div className='dataResult'></div>
     </div>
   )
 }
