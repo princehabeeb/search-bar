@@ -1,4 +1,7 @@
 input{
     padding: 10px;
     width: 30%;
+    border: none;
+    outline: none;
+    border: 2px solid black;
 }
