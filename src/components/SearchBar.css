@@ -14,3 +14,20 @@
     height: 30px;
     width: 300px;
 }
+
+.searchIcon{
+    height: 60px;
+    width: 50px;
+    background-color: white;
+    display: grid;
+    place-items: center;
+}
+
+input:focus{
+    outline: none;
+}
+
+.searchIcon svg {
+    font-size: 35px;
+}
+
