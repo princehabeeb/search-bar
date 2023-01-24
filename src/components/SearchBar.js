@@ -9,7 +9,12 @@ const handleFilter = (event) => {
   const newFilter = data.filter((value) => {
     return value.title.toLowerCase().includes(searchWord.toLowerCase())
   });
-  setFilteredData(newFilter);
+  if (searchWord === ""){
+    setFilteredData([]);
+  }else{
+    setFilteredData(newFilter);
+  }
+  
 }
   return (
     <div className='search'>
